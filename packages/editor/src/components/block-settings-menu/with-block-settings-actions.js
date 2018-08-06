@@ -17,8 +17,8 @@ const shortcuts = {
 		display: displayShortcut.primaryShift( 'd' ),
 	},
 	remove: {
-		raw: rawShortcut.primary( 'del' ),
-		display: displayShortcut.primary( 'del' ),
+		raw: rawShortcut.primaryShift( 'backspace' ),
+		display: displayShortcut.primaryShift( 'backspace' ),
 	},
 };
 
